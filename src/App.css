@@ -1,0 +1,60 @@
+html {
+  margin: 0 auto;
+  width: 100%;
+  align-content: center;
+}
+input {
+  height: 24px;
+  border-radius: 5px;
+}
+li {
+  list-style-type: none;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.counter {
+  color: purple;
+}
+.input {
+  margin-bottom: 2%;
+}
+.delete-button {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  margin-bottom: 5%;
+}
+.messages-list {
+  color: black;
+  font-size: x-large;
+}
+.error-block {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.input-error {
+  border: 2px solid red;
+}
+.input_buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.red-span {
+  color: #FA6F32;
+}
+.text-field {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
