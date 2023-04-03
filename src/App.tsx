@@ -28,9 +28,9 @@ function App() {
         counter > minValue && counter <= maxValue ? setCounter(counter - 1) : setCounter(minValue);
     }
     const deleteLastMessage = () => {
-        messages.shift()
-        setMessages(messages)
-        counter < maxValue ? setCounter(counter + 1) : setCounter(maxValue)
+        messages.shift();
+        setMessages(messages);
+        counter < maxValue ? setCounter(counter + 1) : setCounter(maxValue);
     }
     const deleteAllMessages = () => {
         setMessages([]);
