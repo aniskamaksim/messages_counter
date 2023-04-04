@@ -34,7 +34,7 @@ function App() {
     }
     const deleteAllMessages = () => {
         setMessages([]);
-        setCounter(5)
+        setCounter(5);
     }
 
     return (
