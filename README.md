@@ -1,6 +1,6 @@
 ## Simple message counter
 
-### React - TypeScrypt
+### React - TypeScript
 
 #### You can write only 5 messages. After that you should delete last message or delete all messages. 
 
